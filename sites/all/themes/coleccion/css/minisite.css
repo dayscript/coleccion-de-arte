@@ -1,0 +1,151 @@
+.section-muerte-barroca #block-nice-menus-3{
+	background-color: #9f9d9f;
+}
+
+.owl-pagination{
+    position: absolute;
+    bottom: -20px;
+    min-width: 40px;
+    left: 21px;
+}
+
+.section-muerte-barroca #block-system-main{
+	background-color: #e6e4e6;
+}
+
+.section-muerte-barroca #main-content #block-system-main .group-header,
+.section-aparente-ingenuidad #main-content #block-system-main .group-header,
+.section-delimitar #main-content #block-system-main .group-header{
+    width: 40%;
+    float: left;
+}
+
+.section-muerte-barroca #main-content #block-system-main .group-left,
+.section-aparente-ingenuidad  #main-content #block-system-main .group-left,
+.section-delimitar #main-content #block-system-main .group-left{
+    width: 56%;
+	padding: 20px 18px 0 18px;
+    float: right;
+} 
+
+.slideobras .owl-theme .owl-controls{
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    margin: 0;
+    height: 100%;
+    width: 105%;
+    left:-23px;
+}  
+
+.slideobras .owl-theme .owl-controls .owl-buttons div.owl-next{
+	right: 0;
+}
+
+.slideobras{
+    margin-bottom: 50px;
+}
+
+.slideobras .view-header{
+	background: #2e2323;
+    padding: 6px;
+}
+
+#block-views-muerte-barroca-block .owl-carousel .owl-wrapper-outer,
+#block-views-muerte-barroca-block-1 .owl-carousel .owl-wrapper-outer,
+#block-views-muerte-barroca-block-2 .owl-carousel .owl-wrapper-outer{
+    //width: auto;
+}
+
+.owl-carousel-block98,
+.owl-carousel-block_198,
+.owl-carousel-block_298{
+    background: rgb(39, 39, 39);
+
+}
+
+.owl-carousel .owl-wrapper-outer{
+    z-index: 99999;
+}
+
+.slideobras .view-header .icon a{
+	    background: url("../images/images_theme/ver-mas.png") 11px 4px no-repeat;
+}
+
+.section-muerte-barroca #main-content #block-system-main .group-header .field-type-image img,
+.section-aparente-ingenuidad #main-content #block-system-main .group-header .field-type-image img,
+.section-delimitar #main-content #block-system-main .group-header .field-type-image img{
+ 	width: 93%;
+    height: auto;
+    padding: 20px;
+}
+
+.section-muerte-barroca #block-nice-menus-3 .block-title{
+	display: none;
+}
+
+.section-muerte-barroca #block-nice-menus-3 ul.nice-menu li {
+    border: 0;
+    background-color: transparent;
+    float: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.section-muerte-barroca #block-nice-menus-3 ul.nice-menu-down ul a{
+	color:#fff;
+    width: 204px;
+}
+.section-muerte-barroca #block-nice-menus-3 ul.nice-menu-down ul a:hover {
+    color: #FECB65;
+    text-decoration: none;
+}
+
+.section-muerte-barroca .group-left span{
+	color: #333;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.5em;	
+}
+
+.section-muerte-barroca #block-system-main .node-article{
+    background-color: #fff;
+    padding: 0 70px;
+}
+
+.section-tema .pager_head ul.pager,
+.section-etiquetas .pager_head ul.pager{
+    display: none;
+}
+
+.section-tema .item-list .pager,
+.section-etiquetas .item-list .pager{
+    text-align: center;
+}
+
+.section-tema ul.pager li.pager-first a,
+.section-etiquetas ul.pager li.pager-first a{
+    width: 0px;
+    background: url(../images/images_theme/assets.png) -7px -90px no-repeat;
+}
+
+.section-tema ul.pager li.pager-last a,
+.section-etiquetas ul.pager li.pager-last a{
+    background: url(../images/images_theme/assets.png) -27px -88px no-repeat;
+}
+
+.section-tema .view .pager li a,
+.section-etiquetas .view .pager li a{
+    background: none;
+    border-radius: 30px;
+    color: #000000;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px;
+    opacity: 0.8;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.section-tema .owl-carousel .owl-wrapper-outer,
+.section-etiquetas .owl-carousel .owl-wrapper-outer{
+    z-index: 0;
+}

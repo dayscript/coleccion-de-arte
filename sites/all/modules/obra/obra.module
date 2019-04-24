@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the obra feature.
+ */
+
+include_once 'obra.features.inc';

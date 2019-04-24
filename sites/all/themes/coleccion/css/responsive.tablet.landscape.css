@@ -1,0 +1,372 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete 
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+/*==================================================*/
+/*-----------------  GENERAL -----------------------*/
+/*==================================================*/
+#page-title,
+.titleLechuga h1,
+.titleLechuga h3{
+	width:90%;
+	margin:0 5%;
+}
+.field-name-body {
+	text-align: justify;
+	width: 90%;
+	margin: 0 5%;
+}
+/*------------ HEADER / FOOTER ------------*/
+#header .header_cont,
+.region-footer{
+	width: 90%;
+	margin: 10px 5%;
+}
+#header .header_cont #block-search-form{
+	width:155px;
+}
+.block-sharethis {
+	width: auto !important;
+}
+.block.datoDos,
+.block.datoTres,
+.block.datoCuatro{
+	width: 100%;
+	margin:0;
+}
+.shareFooter{
+	position:absolute;
+	top:30px;
+	margin-bottom:20px;
+}
+
+
+/*==================================================*/
+/*-----------------  HOME -----------------------*/
+/*==================================================*/
+#block-views-galeria-home-block{
+	width:auto ;
+	margin-right:10px;
+}
+.slidePrincipal{
+	display:none;
+}
+.slideDestacados{
+	display: inline-block;
+}
+
+.region-sidebar-second .views-field-field-video iframe {
+	max-width: 100% !important;
+	height: auto;
+}
+/*------ REGION COLUMNAS -----------*/
+.region-sidebar-second .view-galeria-home{
+	height:auto;
+	padding-bottom:20px;
+}
+.region-sidebar-second .flexslider .flex-direction-nav a,
+.region-sidebar-second .flex-direction-nav a{
+	top:25%;
+}
+
+
+/*==================================================*/
+/*-----------------  CURADURIAS ---------------------*/
+/*==================================================*/
+.curaduria .group-datos,
+.curaduria .group-descripcion {
+	float:none;
+	width: 100%;
+}
+.curaduria .video-embed-description{
+	width:100%;
+	position:relative;
+}
+.curaduria .field-name-field-audio-sala{
+	float:none;
+}
+.imgCuraduria{
+	width:100%;
+	text-align:center;
+}
+
+
+/*==================================================*/
+/*---------- ARTICULO / VIDEOS / NOTICIAS ---------*/
+/*==================================================*/
+/*--------- galerias ---------*/
+.view-noticias .views-responsive-grid .views-row, 
+.view-videos .views-responsive-grid .views-row, 
+#block-views-actividades-block-3 .views-responsive-grid .views-row{
+	height:auto;
+}
+.view-noticias .views-responsive-grid .views-column, 
+.view-videos .views-responsive-grid .views-column, 
+#block-views-actividades-block-3 .views-responsive-grid .views-column{
+	width: 45%;
+	height: 500PX;
+	MARGIN: 10PX 2%;
+
+}
+.view-noticias .views-responsive-grid .views-field-title, 
+.view-videos .views-responsive-grid .views-field-title{
+	width:auto;
+}
+#block-views-actividades-block-3 .views-field-field-imagenes a,
+.view-noticias .views-responsive-grid .views-field-field-imagen-noticia a{
+	height: auto;
+	text-align: center;
+	background: #363636;
+	display: block;
+}
+.view-noticias .views-responsive-grid .views-field-nothing, 
+.view-videos .views-responsive-grid .views-field-body .field-content{
+	height:auto;
+}
+.view-noticias .info, 
+.view-videos .info, 
+.view-actividades .info{
+	position: inherit;
+}
+
+
+/*------------- INTERNAS --------------*/
+/*articulos*/
+.articulos_eventos .field-name-resumen{
+	width:100%;
+}
+.articulos_eventos .field-name-resumen .field-items {
+	width: 90%;
+	padding: 10px 5%;
+}
+.articulos_eventos .group-header{
+	width:90%;
+	margin:0 5%;
+}
+.articulos_eventos .group-left,
+.articulos_eventos .group-right{
+	width:100%;
+}
+/*------ videos----*/
+.videos .group-right{
+	clear:both;
+	width: 100%;
+}
+.videos .group-left {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.videos .group-left iframe {
+	max-width:90% !important;
+}
+
+/*------------- ARTISTA -------------*/
+.autor .group-header{
+	width:90%;
+	padding:0 5%;
+}
+.autor .group-header fieldset.group-datos-autor,
+.autor .group-header fieldset.group-bio-autor .field-name-body{
+	width:100%;
+	padding:0;
+}
+.autor .group-header fieldset.group-datos-autor .field-name-field-imagen{
+	text-align:center;
+}
+.autor .group-header fieldset.group-bio-autor {
+	width: 100%;
+	margin-top: 30px;
+}
+/*----------- DETALLE OBRA ------------------*/
+.obra .field-name-imagen-obra-2{
+	display:block;
+	clear:both;
+}
+.obra .group-header{
+	width:90%;
+	margin:0 5%;
+}
+.obra h3.artista{
+	margin-bottom:10px;
+}
+.obra span.fecha{
+	display:block;
+	margin-bottom:20px;
+}
+.obra span.fecha .label-above{
+	display:none;
+}
+.obra .group-right {
+	display:none;
+}
+.obra .group-left{
+	width:80%;
+	padding:20px 10%;
+	height:auto;
+	overflow: inherit;
+}
+.obra .field-name-dimensiones-obra-2,
+.obra .field-name-tecnica-obra-2,
+.obra .field-name-denominacion-obra-2{
+	display:block;
+}
+.obra .field-name-dimensiones-obra-2 .field,
+.obra .field-name-denominacion-obra-2 .field{
+	padding:0 !important;
+	border-bottom:0px !important;
+}
+
+.obra .group-denominacion-obra,
+.obra .group-tecnica-obra,
+.obra .group-caracteristicas-obra{
+	display:none;
+}
+
+
+/*==================================================*/
+/*----------------- GALERIAS OBRAS -----------------*/
+/*==================================================*/
+
+#block-views-galeria-home-block a.link_obra,
+.page-todas-las-obras .view-galeria-home a.link_obra, 
+.page-obras-del-mes .view-galeria-home a.link_obra,
+.view-obras-del-artista a.link_obra,
+.view-obras-sala a.link_obra,
+.view-adquisiciones-recientes a.link_obra{ 
+	height:auto !important;
+}
+.view-galeria-home .views-row,
+#block-views-galeria-home-block .views-row,
+.view-adquisiciones-recientes .views-row, 
+.view-obras-sala .views-row, 
+.view-obras-del-artista .views-row, 
+.view-galeria-home .views-row{
+	height:auto !important;
+}
+#block-views-galeria-home-block .views-field-field-imagen,
+.page-todas-las-obras .view-galeria-home .views-field-field-imagen, 
+.page-obras-del-mes .view-galeria-home .views-field-field-imagen, 
+.page-obras-del-mes .view-galeria-home a.link_obra .info_img, 
+.page-todas-las-obras .view-galeria-home a.link_obra:hover .info_img{
+	height:auto;
+	width:auto;
+}
+#block-views-galeria-home-block .view-galeria-home .views-column{
+	width:33.3%;
+}
+
+.view-adquisiciones-recientes .views-column, 
+.view-obras-sala .views-column, 
+.view-galeria-home .views-column, 
+.view-obras-del-artista .views-column{
+	width:25%;
+}
+
+a.link_obra img{
+	position:relative;
+}
+#block-views-galeria-home-block .view-galeria-home a.link_obra:hover .info_img,
+.view-galeria-home a.link_obra:hover .info_img,
+.info_img,
+a.link_obra:hover .info_img,
+.page-todas-las-obras .view-galeria-home a.link_obra:hover .info_img{
+	display:none !important;
+	position:absolute;
+}
+
+/*-------------- ENCABEZADOS GALERIAS -----------------*/
+.pager_head,
+.pager_footer {
+	/* margin-top: 27px; */
+	width: 90%;
+	MARGIN: 15PX 5% 0 5%;
+}
+.view-galeria-home .view-header,
+.view .view-filters,
+.view-obras-sala .view-header,
+.view-adquisiciones-recientes.pagina .view-header,
+.view-obras-del-artista .view-header{
+	width:90%;
+	margin:0 5%;
+}
+.front .view-galeria-home .view-header,
+.front .view-galeria-home .view-filters{
+	width:100%;
+	margin:0;
+}
+.view-filters-footer{
+	width:90%;
+	margin:0 5%;
+}
+
+/*==================================================*/
+/*-------------  BUSCADOR AVANZADO ----------------*/
+/*==================================================*/
+
+.view-buscador-avanzado .views-field-nothing{
+	max-width:200px;
+}
+.page-busqueda #tasks{
+	width:90%;
+	margin:0 5%;
+}
+.view-buscador-avanzado .view-filters,
+.view-buscador-avanzado .view-content{
+	width: 90%;
+	padding: 0 5%;
+}
+.page-search-node #block-system-main{
+		width: 90%;
+	padding: 0 5%;
+}
+ol.search-results{
+	padding:0;
+}
+
+/*----- resultados busqueda ---------*/
+/*==================================================*/
+/*-------------  PROGRAMA SU VISITA ----------------*/
+/*==================================================*/
+.webform-confirmation{
+	width:90%;
+	margin:0 5%;
+}
+#node-362{
+	padding:0;
+}
+form.webform-client-form{
+	width:90%;
+	margin:0 5%;
+}
+.webform-component select, 
+.webform-component input{
+	width:90%;
+	padding:0 5%;
+}
+.month.form-select,
+.year.form-select,
+.day.form-select{
+	width: 65px;
+	padding: 0 5px;
+}
+.hour.form-select,
+.minute.form-select{
+	width: 80px;
+	padding: 0 5px;
+}
+input[type="image"],
+input[type="radio"]{
+	width:auto;
+}
+input[type="image"],
+input[type="radio"]{
+	width:auto;
+}

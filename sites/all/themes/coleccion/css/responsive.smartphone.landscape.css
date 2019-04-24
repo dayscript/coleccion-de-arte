@@ -1,0 +1,599 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the body font size on small devices */
+
+
+html {
+  font-size: 112.5%;
+}
+/*==================================================*/
+/*-----------------  GENERAL -----------------------*/
+/*==================================================*/
+#page-title,
+.titleLechuga h1,
+.titleLechuga h3{
+	width:90%;
+	margin:0 5%;
+}
+.titleLechuga h1,
+.titleLechuga h3{
+	padding-bottom:10px;
+}
+.field-name-body {
+	text-align: justify;
+	width: 90%;
+	margin: 0 5%;
+}
+
+/*------------ HEADER / FOOTER ------------*/
+#logo {
+	text-align: center;
+}
+#header .header_cont,
+.region-footer{
+	width: 90%;
+	margin: 10px 5%;
+}
+.block.datoDos,
+.block.datoTres,
+.block.datoCuatro{
+	width: 100%;
+	margin:0;
+}
+#header .header_cont #block-search-form{
+	width:155px;
+	margin-top:60px;
+}
+.block-sharethis{
+	right: 0;
+position: absolute;
+width: 70px !important;
+top: 89px;
+}
+.shareFooter{
+	position:relative;
+	margin-bottom:20px;
+	top: 0;
+	margin-bottom: 20px !important;
+	height:30px;
+}
+.shareFooter .block-inner{
+	float:right;
+}
+/*==================================================*/
+/*-----------------  HOME -----------------------*/
+/*==================================================*/
+
+.blockRecientes,
+.slidePrincipal,
+#block-views-galeria-home-block{
+	display:none !important;
+}
+.slideDestacados .view-header, 
+.slideRecientes .view-header,
+.region-sidebar-second .view-header,
+#footer {
+	border-top: 5px solid #FAC661;
+}
+#footer {
+	margin-top:0;
+}
+.region-sidebar-second .view-noticias, 
+.region-sidebar-second .view-actividades{
+	border:none;
+	border-radius:0px;
+	margin:0;
+}
+
+
+/*------ REGION COLUMNAS -----------*/
+.region-sidebar-second{
+	width:100% !important;
+	margin:0 !important;
+}
+.region-sidebar-second .block{
+	margin-bottom:0;
+}
+.region-sidebar-second .view-noticias .views-field-nothing-1, 
+.region-sidebar-second .view-actividades .views-field-nothing,
+.region-sidebar-second .view-videos .views-field-body,
+.region-sidebar-second .view-galeria-home{
+	height:auto;
+}
+.region-sidebar-second .view-galeria-home{
+	padding-bottom:30px !important;
+	height:auto !important;
+}
+.region-sidebar-second .views-field-field-video iframe {
+width: 100% !important;
+min-height: 270px;
+}
+.flexslider .flex-direction-nav a.flex-next,
+.flexslider .flex-direction-nav a.flex-prev{
+	top:50%;
+	}
+.flex-direction-nav a{
+	margin: -35px 0 0;
+}
+
+
+/*==================================================*/
+/*-----------------  CURADURIAS ---------------------*/
+/*==================================================*/
+.curaduria .group-datos,
+.curaduria .group-descripcion {
+	float:none;
+	width: 100%;
+}
+.curaduria .video-embed-description{
+	width:100%;
+	position:relative;
+}
+.curaduria .field-name-field-audio-sala{
+	float:none;
+}
+.imgCuraduria{
+	width:100%;
+	text-align:center;
+}
+
+/*==================================================*/
+/*---------- ARTICULO / VIDEOS / NOTICIAS ---------*/
+/*==================================================*/
+
+/*--------- galerias ---------*/
+.view-noticias .views-responsive-grid .views-row, 
+.view-videos .views-responsive-grid .views-row, 
+#block-views-actividades-block-3 .views-responsive-grid .views-row{
+	height:auto;
+}
+.view-noticias .views-responsive-grid .views-column, 
+.view-videos .views-responsive-grid .views-column, 
+#block-views-actividades-block-3 .views-responsive-grid .views-column{
+	width:100%;
+	height:auto;
+	border:0;
+}
+.view-noticias .views-responsive-grid .views-field-title, 
+.view-videos .views-responsive-grid .views-field-title{
+	width:auto;
+}
+#block-views-actividades-block-3 .views-field-field-imagenes a,
+.view-noticias .views-responsive-grid .views-field-field-imagen-noticia a{
+	height: auto;
+	text-align: center;
+	display: block;
+}
+.view-noticias .views-responsive-grid .views-field-nothing, 
+.view-videos .views-responsive-grid .views-field-body .field-content{
+	height:auto;
+}
+.view-noticias .views-responsive-grid .views-column-2, 
+.view-videos .views-responsive-grid .views-column-2, 
+#block-views-actividades-block-3 .views-column-2{
+	margin:0;
+}
+.ver-mas{
+	position:relative;
+}
+
+/*------------- INTERNAS --------------*/
+
+/*eventos*/
+.blockSlideEventos,
+.page-todos-los-eventos  .region-sidebar-second{
+	float: none;
+	clear: both;
+	display: block;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+.block.blockTodosEventos,
+.calendarioEventos,
+.slide-eventos,
+.blockTipoActividad{
+	display:none !important;
+}
+.view-actividades.page-eventos .views-row,
+.view-actividades.page-eventos .views-column{
+	width:100%;
+}
+.view-actividades.page-eventos .views-column-2{
+	margin:0;
+}
+.view-id-actividades.page-eventos .views-field-body,
+.view-actividades.page-eventos .views-row,
+.view-actividades.page-eventos .views-column{
+	height:auto;
+}
+.view-actividades.page-eventos .views-field-field-imagenes a{
+	height:auto;
+	text-align:center;
+}
+
+/*articulos*/
+.articulos_eventos .field-name-resumen{
+	width:100%;
+}
+.articulos_eventos .field-name-resumen .field-items {
+width: 90%;
+padding: 10px 5%;
+}
+.articulos_eventos .group-header{
+	width:90%;
+	margin:0 5%;
+}
+.articulos_eventos .group-left,
+.articulos_eventos .group-right{
+	width:100%;
+}
+/*videos*/
+.videos .group-right{
+	clear:both;
+		width: 100%;
+}
+.videos .group-left {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.videos .group-left iframe {
+	max-width:90% !important;
+}
+
+/* ARTISTA */
+.autor .group-header{
+	width:90%;
+	padding:0 5%;
+}
+.autor .group-header fieldset.group-datos-autor,
+.autor .group-header fieldset.group-bio-autor .field-name-body{
+	width:100%;
+	padding:0;
+}
+.autor .group-header fieldset.group-datos-autor .field-name-field-imagen{
+	text-align:center;
+}
+.autor .group-header fieldset.group-bio-autor {
+	width: 100%;
+	margin-top: 30px;
+}
+.autor .group-header fieldset.group-bio-autor {
+	width: 100%;
+}
+.autor .field-name-body {
+	margin: 0px;
+}
+/*----------- DETALLE OBRA ------------------*/
+.obra .field-name-imagen-obra-2{
+	display:block;
+	clear:both;
+}
+.obra .group-header{
+	width:90%;
+	margin:0 5%;
+}
+.obra h3.artista{
+	margin-bottom:10px;
+}
+.obra span.fecha{
+	display:block;
+	margin-bottom:20px;
+}
+.obra span.fecha .label-above{
+	display:none;
+}
+.obra .group-right {
+	display:none;
+}
+.obra .group-left{
+	width:80%;
+	padding:20px 10%;
+	height:auto;
+	overflow: inherit;
+}
+.obra .field-name-dimensiones-obra-2,
+.obra .field-name-tecnica-obra-2,
+.obra .field-name-denominacion-obra-2{
+	display:block;
+}
+.obra .field-name-dimensiones-obra-2 .field,
+.obra .field-name-denominacion-obra-2 .field{
+	padding:0 !important;
+	border-bottom:0px !important;
+}
+
+.obra .group-denominacion-obra,
+.obra .group-tecnica-obra,
+.obra .group-caracteristicas-obra{
+	display:none;
+}
+
+/*==================================================*/
+/*---------------- GALERIAS OBRAS ------------------*/
+/*==================================================*/
+
+.page-todas-las-obras .view-galeria-home a.link_obra, 
+.page-obras-del-mes .view-galeria-home a.link_obra,
+.view-obras-del-artista a.link_obra,
+.view-obras-sala a.link_obra,
+.view-adquisiciones-recientes a.link_obra{ 
+	height:auto;
+}
+.view-adquisiciones-recientes .views-row, .view-obras-sala .views-row, .view-obras-del-artista .views-row, .view-galeria-home .views-row{
+	height:auto;
+}
+.page-todas-las-obras .view-galeria-home .views-field-field-imagen, 
+.page-obras-del-mes .view-galeria-home .views-field-field-imagen, 
+.page-obras-del-mes .view-galeria-home a.link_obra .info_img, 
+.page-todas-las-obras .view-galeria-home a.link_obra:hover .info_img{
+	height:auto;
+	width:auto;
+}
+.view-adquisiciones-recientes .views-column, 
+.view-obras-sala .views-column, 
+.view-galeria-home .views-column, 
+.view-obras-del-artista .views-column{
+	width:33.3%;
+}
+.view-galeria-home .views-row{
+	height:auto;
+}
+a.link_obra img{
+	position:relative;
+}
+.view-galeria-home a.link_obra:hover .info_img,
+.info_img,
+a.link_obra:hover .info_img,
+.page-todas-las-obras .view-galeria-home a.link_obra:hover .info_img{
+	display:none !important;
+	position:absolute;
+}
+
+/*-------------- ENCABEZADOS GALERIAS -----------------*/
+.pager_head,
+.pager_footer {
+	/* margin-top: 27px; */
+	width: 90%;
+	MARGIN: 15PX 5% 0 5%;
+}
+.view-galeria-home .view-header,
+.view .view-filters,
+.view-obras-sala .view-header,
+.view-adquisiciones-recientes.pagina .view-header,
+.view-obras-del-artista .view-header{
+	width:90%;
+	margin:0 5%;
+}
+.front .view-galeria-home .view-header,
+.front .view-galeria-home .view-filters{
+	width:100%;
+	margin:0;
+}
+.view-filters-footer{
+	width:90%;
+	margin:0 5%;
+}
+
+/*==================================================*/
+/*-------------  VIDEOS ----------------*/
+/*==================================================*/
+.front #colorbox .embedded-video iframe,
+.page-videos  #colorbox .embedded-video iframe,
+.page-taxonomy-term-30  #colorbox .embedded-video iframe,
+.page-taxonomy-term-32  #colorbox .embedded-video iframe,
+.page-taxonomy-term-96  #colorbox .embedded-video iframe,
+.page-taxonomy-term-94  #colorbox .embedded-video iframe,
+.page-taxonomy-term-98  #colorbox .embedded-video iframe,
+.page-taxonomy-term-3580  #colorbox .embedded-video iframe{
+	width:100% !important;
+	max-height:300px;
+}
+.front #cboxContent,
+.page-videos #cboxContent,
+.page-taxonomy-term-30 #cboxContent,
+.page-taxonomy-term-32 #cboxContent,
+.page-taxonomy-term-96 #cboxContent,
+.page-taxonomy-term-94 #cboxContent,
+.page-taxonomy-term-98 #cboxContent,
+.page-taxonomy-term-3580 #cboxContent{
+	max-height:330px;
+}
+
+.front #cboxWrapper,
+.front #cboxLoadedContent,
+.front #colorbox{
+	max-height:350px;
+}
+
+.page-videos #cboxWrapper,
+.page-videos #cboxLoadedContent,
+.page-videos #colorbox{
+	max-height:350px;
+}
+.page-taxonomy-term-30 #cboxWrapper,
+.page-taxonomy-term-30 #cboxLoadedContent,
+.page-taxonomy-term-30 #colorbox{
+	max-height:350px;
+}
+.page-taxonomy-term-32 #cboxWrapper,
+.page-taxonomy-term-32 #cboxLoadedContent,
+.page-taxonomy-term-32 #colorbox{
+	max-height:350px;
+}
+.page-taxonomy-term-96 #cboxWrapper,
+.page-taxonomy-term-96 #cboxLoadedContent,
+.page-taxonomy-term-96 #colorbox{
+	max-height:350px;
+}
+.page-taxonomy-term-94 #cboxWrapper,
+.page-taxonomy-term-94 #cboxLoadedContent,
+.page-taxonomy-term-94 #colorbox{
+	max-height:350px;
+}
+.page-taxonomy-term-98 #cboxWrapper,
+.page-taxonomy-term-98 #cboxLoadedContent,
+.page-taxonomy-term-98 #colorbox{
+	max-height:350px;
+}
+.page-taxonomy-term-3580 #cboxWrapper,
+.page-taxonomy-term-3580 #cboxLoadedContent,
+.page-taxonomy-term-3580 #colorbox{
+	max-height:350px;
+}
+
+/*==================================================*/
+/*-------------  BUSCADOR AVANZADO ----------------*/
+/*==================================================*/
+/*----filtro----*/
+.page-busqueda header#main-content-header{
+	background:#2A2A2A;
+	border-top: 5px solid #FECB65; 
+}
+.page-busqueda header h1{
+	color:#fff;
+}
+.page-busqueda #tasks,
+.view-buscador-avanzado .view-content{
+	width:90%;
+	margin:0 5%;
+}
+.page-search-node #block-system-main{
+		width: 90%;
+	padding: 0 5%;
+}
+ol.search-results{
+	padding:0;
+}
+.view-buscador-avanzado .view-filters{
+	width: 90%;
+	padding: 0 5% 20px 5%;
+	background:#2A2A2A;
+	margin:0;
+}
+.view-buscador-avanzado .views-widget{
+	width:100%;
+}
+.view-buscador-avanzado .view-filters .views-exposed-form .views-exposed-widget{
+	width:100%;
+	padding:10px 0 0 0;
+}
+
+.view-buscador-avanzado  .views-exposed-form select,
+.view-buscador-avanzado  .views-exposed-form input[type="text"],
+.view-buscador-avanzado .chosen-container-single .chosen-single span {
+	background: #505050 !important;
+	border: 1px solid #737373 !important;
+	color: #FFF;
+	float: none;
+	font-size: 11px;
+	height: 25px;
+	max-width: 100%;
+	width: 100%;
+	padding:0;
+}
+
+.view-buscador-avanzado .views-exposed-form select option,
+.view-buscador-avanzado .chosen-container-active.chosen-with-drop .chosen-single {
+	background-color: #505050;
+}
+#edit_field_artista_target_id_entityreference_filter_chosen,
+#edit-field-artista-target-id-entityreference-filter,
+.view-buscador-avanzado .chosen-container{
+	width:100% !important;
+}
+.form-item-field-artista-target-id-entityreference-filter{
+	width:100% !important;
+	position:relative;
+}
+
+.views-exposed-form .views-exposed-widget,
+.views-exposed-form .views-widget{
+	width:100%;
+	padding-right:0;
+}
+.views-exposed-widget.views-widget-per-page{
+	width:auto;
+}
+.page-busqueda .views-exposed-form label{
+	color: #fff;
+	font-weight: 600;
+}
+
+/*==================================================*/
+/*-------------  PROGRAMA SU VISITA ----------------*/
+/*==================================================*/
+.webform-confirmation{
+	width:90%;
+	margin:0 5%;
+}
+#node-362{
+	padding:0;
+}
+form.webform-client-form{
+	width:90%;
+	margin:0 5%;
+}
+.webform-component select, 
+.webform-component input{
+	width:90%;
+	padding:0 5%;
+}
+.month.form-select,
+.year.form-select,
+.day.form-select{
+	width: 65px;
+	padding: 0 5px;
+}
+.hour.form-select,
+.minute.form-select{
+	width: 80px;
+	padding: 0 5px;
+}
+input[type="image"],
+input[type="radio"]{
+	width:auto;
+}
+/*-----resultados--*/
+.view-buscador-avanzado .views-row {
+	width: 100%;
+}
+.view-buscador-avanzado .views-field-nothing{
+	max-width:170px;
+}
+
+/*==================================================*/
+/*-------------  SECCION LECHUGA ----------------*/
+/*==================================================*/
+.menuLechuga{
+	display:none !important;
+}
+.section-la-lechuga .field-name-title{
+	min-width:inherit;
+	width:100%;
+}
+.section-la-lechuga .portadaLechuga .group-left .field-name-body{
+	  position: relative;
+  width: 90%;
+  margin: 30px 5%;
+  top:0;
+}
+.contBoton{
+	height:42px;
+}
+.portadaLechuga .field-name-field-imagen-noticia{
+	overflow:hidden;
+}
+.portadaLechuga .field-name-field-imagen-noticia img{
+	max-width:inherit;
+	width:250%;
+}
